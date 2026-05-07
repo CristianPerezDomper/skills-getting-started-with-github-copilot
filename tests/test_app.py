@@ -1,9 +1,12 @@
+# Standard library imports
 import copy
 
-import pytest
+# Third-party imports
+import pytest 
 from fastapi.testclient import TestClient
 
-from app import app, activities
+# Local application imports
+from src.app import app, activities
 
 client = TestClient(app)
 
